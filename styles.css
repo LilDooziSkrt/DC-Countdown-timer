@@ -1,7 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #282c36;
+    background-image: url('your-image-url.jpg'); 
+    background-size: cover;
+    background-position: center;
     color: white;
     margin: 0;
     padding: 50px;
