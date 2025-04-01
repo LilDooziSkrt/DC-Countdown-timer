@@ -8,7 +8,7 @@ body {
     background-attachment: fixed; /* Keeps the image fixed while scrolling */
     color: white;
     margin: 0;
-    padding: 50px;
+    padding: 75px;
     height: 75vh; /* Ensures full viewport coverage */
 }
 
