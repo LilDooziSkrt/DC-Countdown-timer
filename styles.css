@@ -1,23 +1,21 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url(https://github.com/LilDooziSkrt/countdown-timer/blob/7d6f69b4a31da70de807da7629bca6232634495f/Final%20Background.JPG); 
-    background-size: cover;
-    background-position: center;
-    color: white;
+    background-image: url('https://raw.githubusercontent.com/LilDooziSkrt/countdown-timer/main/Final%20Background.JPG');
+    background-size: cover; /* Make it cover the full screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    color: white; /* Set text color for contrast */
     margin: 0;
     padding: 50px;
 }
 
-.countdown-container {
-    font-size: 2rem;
-    background: #228B22;
+#countdown {
+    font-size: 48px;
+    font-weight: bold;
+    color: forestgreen; /* Set the countdown timer color */
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add a slight dark background for readability */
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
-}
-
-#countdown {
-    margin-top: 20px;
-    font-weight: bold;
 }
