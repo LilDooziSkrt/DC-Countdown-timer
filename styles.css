@@ -2,13 +2,16 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-image: url('https://raw.githubusercontent.com/LilDooziSkrt/countdown-timer/main/Final%20Background.JPG');
-    background-size: cover; /* Make it cover the full screen */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent repeating */
-    color: white; /* Set text color for contrast */
+    background-size: contain;  /* Ensures the whole image is visible */
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    color: white;
     margin: 0;
     padding: 50px;
+    height: 100vh; /* Ensures full viewport coverage */
 }
+
 
 #countdown {
     font-size: 48px;
